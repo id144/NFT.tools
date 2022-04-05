@@ -70,8 +70,8 @@ while (True):
         _nftID = int(getTokenNFT(_currentID))
         if _nftID != 0:
             _oldID = _currentID
-        print("Next NFT #" + str(_currentID+1))
-        print("Next design ID to be minted: " + str(_nftID +1) + " ")
-        imageURL = getTokenImageURL(_currentID - 98)
-        print("Image URL: " + imageURL)        
-        printGasInfo()
+            print("Next NFT #" + str(_currentID+1))
+            print("Next design ID to be minted: " + str(_nftID +1) + " ")
+            imageURL = getTokenImageURL(_currentID - 98)
+            print("Image URL: " + imageURL)        
+            printGasInfo()
